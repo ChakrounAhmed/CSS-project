@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: darkcyan;
+  text-align: center;
+  font-size: 30px;
+  width: 40%;
+  padding: 3px;
+  word-spacing: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(1, 15, 15);
+}
+a:active {
+  color: bisque;
+}
+
+header {
+  text-align: center;
+  font-size: 100px;
+  border-radius: 40px;
+  height: 200px;
+  padding: 50px;
+  animation: coloring 2s infinite;
+  color:white;
+}
+@keyframes coloring {
+  0% {
+    background-color: white;color: red;
+  }
+  100% {
+    background-color:red;
+  }
+}
+
+.link {
+  font-size: 250%;
+  background-color: orange;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  border-radius: 4px;
+  padding: 5px;
+  border: 3px solid green;
+  padding: 10px;
+}
+.para {
+  font-size: 150%;
+}
+.tab {
+  font-size: 200%;
+  width: 100%;
+  text-align: center;
+}
+.dispo {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+    text-align: center;
+    background-color: aqua;
+    padding-bottom: 30px;
+}
+button{
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(255, 153, 0);
+}
+  
+
+button:hover{
+    color: aliceblue;
+    background-color: red;
+}
+    
+button:active{
+    opacity: 0.6;
+    
+}
